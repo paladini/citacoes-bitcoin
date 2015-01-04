@@ -69,63 +69,19 @@
 
   <div class="container">
     <div class="section">
-      <div class="row">
+      <div class="row" id="renderHere">
 
+          <!-- If we have luck, it will render fine! -->
           <div class="col s12 m12 l12">
             <div class="card purple darken-3">
               <div class="card-content white-text">
-                <span class="card-title">"O Bitcoin talvez seja o TCP/IP do dinheiro".</span>
+                <span class="card-title frase"></span>
               </div>
               <div class="card-action">
-                <i class="white-text">Paul Buchheit &#8212; criador do Gmail, do Adsense e do lema do Google.</i>
+                <i class="white-text autor"></i>
               </div>
             </div>
           </div>
-
-          <div class="col s12 m12 l12">
-            <div class="card purple darken-3">
-              <div class="card-content white-text">
-                <span class="card-title">"É o dinheiro 2.0, um negócio muitoooo grande".</span>
-              </div>
-              <div class="card-action">
-                <i class="white-text">Wences Casares &#8212; fundador do Banco Lemon, Wanaco Games e Xapo.</i>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m12 l12">
-            <div class="card purple darken-3">
-              <div class="card-content white-text">
-                <span class="card-title">"Atualmente o Bitcoin parece a Internet antes dos navegadores".</span>
-              </div>
-              <div class="card-action">
-                <i class="white-text">Chamath Palihapitiya &#8212; ex-chefe do AOL Instant Messenger e funcionário do Facebook.</i>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m12 l12">
-            <div class="card purple darken-3">
-              <div class="card-content white-text">
-                <span class="card-title">"O Bitcoin fará com os bancos o que o e-mail fez com a indústria postal".</span>
-              </div>
-              <div class="card-action">
-                <i class="white-text">Rick Falkvinge &#8212; empresário de TI e criador do 1º Partido Pirata do mundo.</i>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m12 l12">
-            <div class="card purple darken-3">
-              <div class="card-content white-text">
-                <span class="card-title">"O Bitcoin é uma grande proeza tecnológica".</span>
-              </div>
-              <div class="card-action">
-                <i class="white-text">Bill Gates &#8212; co-fundador da Microsoft.</i>
-              </div>
-            </div>
-          </div>
-
       </div>
     </div>
   </div>
@@ -144,6 +100,34 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/transparency.min.js"></script>
+
+  <script>
+      var toBeRendered = [
+        {
+          frase: "\"É o dinheiro 2.0, um negócio muitoooo grande\".",
+          autor: "Wences Casares — fundador do Banco Lemon, Wanaco Games e Xapo."
+        },
+        {
+          frase: "\"Atualmente o Bitcoin parece a Internet antes dos navegadores\".",
+          autor: "Chamath Palihapitiya — ex-chefe do AOL Instant Messenger e funcionário do Facebook."
+        },
+        {
+          frase: "\"O Bitcoin talvez seja o TCP/IP do dinheiro\".",
+          autor: "Paul Buchheit — criador do Gmail, do Adsense e do lema do Google."
+        },
+        {
+          frase: "\"O Bitcoin fará com os bancos o que o e-mail fez com a indústria postal\".",
+          autor: "Rick Falkvinge — empresário de TI e criador do 1º Partido Pirata do mundo."
+        },
+        {
+          frase: "\"O Bitcoin é uma grande proeza tecnológica\".",
+          autor: "Bill Gates — co-fundador da Microsoft."
+        }
+      ];
+
+      Transparency.render(document.getElementById("renderHere"), toBeRendered);
+  </script>
 
   </body>
 </html>
