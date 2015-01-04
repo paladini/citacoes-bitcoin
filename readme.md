@@ -1,5 +1,5 @@
 ## Citações Bitcoin ##
-### Conheça e compartilhe as melhores frases e citações sobre Bitcoin! ###
+**Conheça e compartilhe as melhores frases e citações sobre Bitcoin!** Visite o site agora: [Citações Bitcoin](http://paladini.github.io/citacoes-bitcoin/).
 
 ### Futuro ###
 - Utilizar uma biblioteca de templates para melhorar inserção de citações (http://garann.github.io/template-chooser/).
