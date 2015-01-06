@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="200" height="120" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 715 216"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil4 {fill:#2D3E50}
+    .fil3 {fill:#E8683E}
+    .fil1 {fill:#FEFEFE;fill-rule:nonzero}
+    .fil0 {fill:#2D3E50;fill-rule:nonzero}
+    .fil2 {fill:#E8683E;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M504 64c3,-6 5,-13 5,-22 0,-25 -20,-38 -38,-38l-69 0 0 128 73 0c20,0 40,-15 40,-41 0,-11 -5,-20 -10,-27l0 0zm-71 -35l36 0c6,0 11,6 11,13 0,7 -5,12 -11,12l-36 0 0 -25zm41 77l-41 0 0 -27 41 0c7,0 13,6 13,14 0,8 -6,14 -13,14l0 0z"/>
+  <path class="fil1" d="M175 0c-38,0 -68,30 -68,68 0,37 30,68 68,68 37,0 68,-30 68,-68 0,-37 -30,-68 -68,-68z"/>
+  <polygon class="fil2" points="381,24 357,0 314,44 270,0 246,24 290,67 246,112 270,135 314,92 357,135 381,112 337,68 "/>
+  <polygon class="fil2" points="97,31 97,4 0,4 0,4 0,31 0,132 31,132 31,88 83,88 83,60 31,60 31,31 "/>
+  <polygon class="fil0" points="715,4 587,4 587,31 636,31 636,132 667,132 667,31 715,31 "/>
+  <polygon class="fil0" points="536,4 536,132 567,132 567,4 "/>
+  <path class="fil2" d="M175 0c-38,0 -68,30 -68,68 0,37 30,68 68,68 37,0 68,-30 68,-68 0,-37 -30,-68 -68,-68z"/>
+  <path class="fil3" d="M140 108c-7,0 -11,-1 -19,1 -17,4 -29,16 -33,35 -11,48 23,76 60,72 24,-2 34,-21 58,-32 9,-4 18,-6 27,-1 3,1 5,3 8,4 -1,-13 -14,-26 -28,-30 -18,-5 -33,1 -49,6 -40,12 -50,-14 -43,-33 2,-5 7,-12 13,-11l5 -10z"/>
+  <path class="fil4" d="M184 160c2,1 9,3 11,4 2,1 1,0 1,1 -5,3 -13,7 -13,12 2,-2 11,-3 15,-2 -2,5 -10,9 -11,17 3,-2 6,-5 10,-7 16,-10 24,-11 39,-4 -2,-9 -11,-16 -19,-19 -11,-4 -22,-4 -33,-2z"/>
+ </g>
+</svg>
