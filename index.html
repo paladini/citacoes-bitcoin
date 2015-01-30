@@ -1,4 +1,4 @@
-<html lang="pt_BR">
+<html lang="pt_BR" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
@@ -39,11 +39,24 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=322363597963090&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <nav class="orange darken-2">
     <div class="container">
       <div class="nav-wrapper">
         <!-- <a id="logo-container" href="#" class="brand-logo">Citações Bitcoin</a> -->
-        <ul id="nav-mobile" class="right side-nav">
+        <ul class="side-nav left" style="height: 64px; display: table;">
+            <div class="fb-like" style="display: table-cell; vertical-align: middle;" data-href="http://citacoesbitcoin.com/" data-width="300" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true">&nbsp;</div>
+        </ul>
+        <ul id="nav-mobile" class="side-nav right">
           <li><a href="https://docs.google.com/forms/d/1hOiWd-MlsfZ-1n5EMOPjxnJ6l7_TcBgxtR49QY2Yxdg/viewform" target="_blank" rel="nofollow" alt="Envie uma sugestão de citação" title="Envia uma sugestão de citação">Enviar uma citação</a></li>
           <li><a href="sobre.html" alt="Sobre o projeto" title="Sobre o projeto">Sobre</a></li>
         </ul>
@@ -52,47 +65,87 @@
     </div>
   </nav>
 
-  <div class="container">
-    <div class="section no-pad">
-      <br><br>
-      <h1 class="header center orange-text">Citações Bitcoin</h1>
-      <div class="row center">
-        <div class="col s12 m12 l12">
-          <h5 class="header light">
-            Conheça as melhores frases e citações sobre Bitcoin.
-          </h5>
-        </div>
-      </div>
-    </div>
-  </div>
+  <main>
 
-  <div class="container">
-    <div class="section">
-      <div class="row" id="renderHere">
-
-          <!-- If we have luck, it will render fine! -->
-          <div class="col s12 m12 l12">
-            <div class="card purple darken-3">
-              <div class="card-content white-text">
-                <span class="card-title frase"></span>
-              </div>
-              <div class="card-action">
-                <i class="white-text autor"></i>
-              </div>
+      <!-- Apresentação do site -->
+      <div class="container">
+        <div class="section no-pad">
+          <br><br>
+          <h1 class="header center orange-text">Citações Bitcoin</h1>
+          <div class="row center">
+            <div class="col s12 m12 l12">
+              <h5 class="header light">
+                Conheça as melhores frases e citações sobre Bitcoin.
+              </h5>
             </div>
           </div>
-      </div>
-
-      <div class="row center">
-        <div class="col s8 offset-s2">
-          <h4 class="header light">Agradecimentos</h4>
-          <a href="http://foxbit.com.br/" rel="nofollow" target="_blank"><img src="images/foxbit.svg" alt="Foxbit.com.br logo" title="Obrigado, sua raposa linda!"/></a>
-          <p class="no-pad">Agradecemos à exchange <a href="http://foxbit.com.br/" rel="nofollow" target="_blank">Foxbit</a>, uma das melhores e mais sérias exchanges nacionais, por pagar nossos custos com o domínio do <a href="http://citacoesbitcoin.com/"><i>Citações Bitcoin</i></a>. Sem esse apoio seríamos um milésimo do que somos hoje.</p>
         </div>
       </div>
-    </div>
-  </div>
 
+      <!-- Frases -->
+      <div class="container">
+        <div class="section">
+          <div class="row" id="renderHere">
+
+              <!-- Frases serão renderizadas aqui futuramente -->
+              <!-- Por hora apenas o spinner -->
+              <div class="col s4 offset-s4 center">
+                <div class="preloader-wrapper active">
+                  <div class="spinner-layer spinner-blue">
+                    <div class="circle-clipper left">
+                      <div class="circle"></div>
+                    </div><div class="gap-patch">
+                      <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                      <div class="circle"></div>
+                    </div>
+                  </div>
+
+                  <div class="spinner-layer spinner-red">
+                    <div class="circle-clipper left">
+                      <div class="circle"></div>
+                    </div><div class="gap-patch">
+                      <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                      <div class="circle"></div>
+                    </div>
+                  </div>
+
+                  <div class="spinner-layer spinner-yellow">
+                    <div class="circle-clipper left">
+                      <div class="circle"></div>
+                    </div><div class="gap-patch">
+                      <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                      <div class="circle"></div>
+                    </div>
+                  </div>
+
+                  <div class="spinner-layer spinner-green">
+                    <div class="circle-clipper left">
+                      <div class="circle"></div>
+                    </div><div class="gap-patch">
+                      <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                      <div class="circle"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="row center">
+            <div class="col s8 offset-s2">
+              <h4 class="header light">Agradecimentos</h4>
+              <a href="http://foxbit.com.br/" rel="nofollow" target="_blank"><img src="images/foxbit.svg" alt="Foxbit.com.br logo" title="Obrigado, sua raposa linda!"/></a>
+              <p class="no-pad">Agradecemos à exchange <a href="http://foxbit.com.br/" rel="nofollow" target="_blank">Foxbit</a>, uma das melhores e mais sérias exchanges nacionais, por pagar nossos custos com o domínio do <a href="http://citacoesbitcoin.com/"><i>Citações Bitcoin</i></a>. Sem esse apoio seríamos um milésimo do que somos hoje.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <!-- Rodapé -->
   <footer class="orange darken-2">
     <div class="footer-copyright">
       <div class="container">
@@ -103,51 +156,51 @@
   </footer>
 
 
-  <!--  Scripts-->
+  <!-- Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <script src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
-  <script src="js/transparency.min.js"></script>
 
   <script>
-      var toBeRendered = [
-        {
-          frase: "\"O próximo passo da evolução humana será se tornar uma raça que poderá colocar sua confiança no próximo, não nos seus legisladores ou políticos\".",
-          autor: "S.E Sever, escritor."
-        },
-        {
-          frase: "\"Isso estará em todo o lugar e o mundo terá que se adaptar. Os governos do mundo terão que se adaptar\".",
-          autor: "John McAfee — fundador da McAfee."
-        },
-        {
-          frase: "\"Eu penso que o Bitcoin é o primeiro [dinheiro encriptado] que tem o potencial de fazer alguma coisa como mudar o mundo\".",
-          autor: "Peter Thiel — co-fundador do Paypal."
-        },
-        {
-          frase: "\"É o dinheiro 2.0, um negócio muitoooo grande\".",
-          autor: "Wences Casares — fundador do Banco Lemon, Wanaco Games e Xapo."
-        },
-        {
-          frase: "\"Atualmente o Bitcoin parece a Internet antes dos navegadores\".",
-          autor: "Chamath Palihapitiya — ex-chefe do AOL Instant Messenger e funcionário do Facebook."
-        },
-        {
-          frase: "\"O Bitcoin talvez seja o TCP/IP do dinheiro\".",
-          autor: "Paul Buchheit — criador do Gmail, do Adsense e do lema do Google."
-        },
-        {
-          frase: "\"O Bitcoin fará com os bancos o que o e-mail fez com a indústria postal\".",
-          autor: "Rick Falkvinge — empresário de TI e criador do 1º Partido Pirata do mundo."
-        },
-        {
-          frase: "\"O Bitcoin é uma grande proeza tecnológica\".",
-          autor: "Bill Gates — co-fundador da Microsoft."
-        }
-      ];
+    $(document).ready(function(){
+        var url = "https://spreadsheets.google.com/feeds/list/17rvB57E0OXrOIGm0zJSUyswCelWkyGQwBvXbjAJp83o/default/public/values?alt=json";
 
-      Transparency.render(document.getElementById("renderHere"), toBeRendered);
+        var preloader = document.getElementsByClassName("preloader-wrapper")[0];
+
+        // Carregando dados do Google Drive.
+        $.getJSON(url, function(data){
+            var model = "<div class='col s12 m12 l12'>" +
+                        "<div class='card purple darken-3'>" +
+                          "<div class='card-content white-text'>" +
+                            "<span class='card-title frase'>#{frase}</span>" +
+                          "</div>" +
+                          "<div class='card-action'>" +
+                            "<i class='white-text autor'>#{autor} — #{descricao_autor}</i>" +
+                          "</div>" +
+                        "</div>" +
+                      "</div>";
+
+            if (data.feed.entry == null) {
+                alert("Desculpe, algo deu errado ao carregar os dados do site :(");
+            } else {
+                $.each(data.feed.entry,     function(index, value){
+                    line = model;
+                    line = line.replace("#{frase}", value.gsx$citacao.$t);
+                    line = line.replace("#{autor}", value.gsx$autor.$t);
+                    line = line.replace("#{descricao_autor}", value.gsx$descricao.$t);
+                    $("#renderHere").append(line);
+                });
+
+                // Removendo o loading da página
+                preloader.parentNode.removeChild(preloader);
+
+            }
+        });
+
+    });
 
   </script>
+
 
   <!-- Analytics -->
   <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58180879-1', 'auto');ga('send', 'pageview');</script>
