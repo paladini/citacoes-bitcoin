@@ -183,13 +183,16 @@
             if (data.feed.entry == null) {
                 alert("Desculpe, algo deu errado ao carregar os dados do site :(");
             } else {
-                $.each(data.feed.entry,     function(index, value){
-                    line = model;
-                    line = line.replace("#{frase}", value.gsx$citacao.$t);
-                    line = line.replace("#{autor}", value.gsx$autor.$t);
-                    line = line.replace("#{descricao_autor}", value.gsx$descricao.$t);
-                    $("#renderHere").append(line);
-                });
+
+                var howManyLines = Object.keys(data.feed.entry).length;
+                for(var i = howManyLines - 1; i >= 0; i--) {
+                  value = data.feed.entry[i];
+                  line = model;
+                  line = line.replace("#{frase}", value.gsx$citacao.$t);
+                  line = line.replace("#{autor}", value.gsx$autor.$t);
+                  line = line.replace("#{descricao_autor}", value.gsx$descricao.$t);
+                  $("#renderHere").append(line);
+                }
 
                 // Removendo o loading da página
                 preloader.parentNode.removeChild(preloader);
